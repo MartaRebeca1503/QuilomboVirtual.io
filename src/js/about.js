@@ -17,6 +17,8 @@ window.onclick = function(event) {
         closeModal(2);
         closeModal(3);
         closeModal(4);
+        closeModal(5);
+        closeModal(6);
     }
 };
 
