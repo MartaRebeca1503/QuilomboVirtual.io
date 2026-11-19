@@ -7,20 +7,26 @@
 }
 
 :root {
-  --cor-fundo: #8a67b5;
+  --cor-fundo: #6f4a96;
+  --cor-fundo-claro: #a37fd0;
+  --mouse-x: 50%;
+  --mouse-y: 50%;
 }
 
 html, body {
   height: 100%;
   width: 100%;
   background-color: var(--cor-fundo);
+  /* tom mais claro onde o mouse passa, resto mais escuro */
+  background-image: radial-gradient(circle 350px at var(--mouse-x) var(--mouse-y), var(--cor-fundo-claro), transparent);
+  background-attachment: fixed;
 }
 
 #header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4e2772;
+  background-color: transparent;
   border-radius: 10px;
   color: aliceblue;
   font-family: "Archivo Black", serif;
@@ -62,6 +68,7 @@ html, body {
 }
 
 .more {
+  color: aliceblue;
   display: flex;
   align-items: center;
   justify-content: center;

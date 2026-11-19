@@ -39,3 +39,9 @@ const elements = document.querySelectorAll('.animate-on-scroll');
 elements.forEach(element => {
     observer.observe(element);
 });
+
+// Efeito de luz: o fundo fica mais claro onde o mouse (ou toque) estiver
+document.addEventListener("pointermove", function(event) {
+    document.documentElement.style.setProperty("--mouse-x", event.clientX + "px");
+    document.documentElement.style.setProperty("--mouse-y", event.clientY + "px");
+});
