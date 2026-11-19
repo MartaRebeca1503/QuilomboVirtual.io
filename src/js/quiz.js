@@ -140,3 +140,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+// Reinicia o quiz se a página for restaurada do cache ao voltar pelo navegador
+window.addEventListener("pageshow", (event) => {
+    if (event.persisted) {
+        window.location.reload();
+    }
+});

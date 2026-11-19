@@ -9,12 +9,16 @@ body {
     background-color: #f3f3f3;
     color: #333;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
 }
 
 .quiz-container {
+    margin: auto;
     background: #ffffff;
     padding: 20px 30px;
     border-radius: 10px;
