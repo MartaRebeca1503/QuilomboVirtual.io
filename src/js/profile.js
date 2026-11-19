@@ -82,7 +82,6 @@ const menuHTML = `
     <ul>
     <ol class="nav-bar">
             <a href="../index.html"><li class="nav">Home</li></a>
-           <a href="contato/"> <li class="nav">Contato</li></a>
           <a href="https://www.vakinha.com.br/buscar-vaquinha?page=1&term=Vaquinhas%20para%20pessoas%20negras" target="_blank" rel="noopener noreferrer">  <li class="nav">Apoio</li></a>
             <a href="sobre/sobre.html"><li class="nav">Sobre</li></a>
         </ol>
