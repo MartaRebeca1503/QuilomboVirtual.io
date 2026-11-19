@@ -50,6 +50,9 @@ body {
     color: white;
     text-decoration: none;
   }
+  .btn-voltar {
+    font-weight: 700;
+  }
   main {
     padding: 2rem;
   }
@@ -101,6 +104,7 @@ body {
   
   #card{
      display: flex;
+     flex-wrap: wrap;
      gap: 20px;
   }
   
