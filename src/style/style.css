@@ -6,10 +6,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --cor-fundo: #8a67b5;
+}
+
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #72489cc5;
+  background-color: var(--cor-fundo);
 }
 
 #header {
@@ -22,6 +26,13 @@ html, body {
   font-family: "Archivo Black", serif;
   text-align: center;
   font-size: x-large;
+  max-height: 180px;
+  overflow: hidden;
+}
+
+#header .woman-img {
+  max-height: 180px;
+  width: auto;
 }
 
 .nav-bar {
@@ -216,6 +227,11 @@ html, body {
   #header {
     flex-direction: column;
     font-size: large;
+    max-height: none;
+  }
+
+  #header .woman-img {
+    max-height: 120px;
   }
 
   .cards {
