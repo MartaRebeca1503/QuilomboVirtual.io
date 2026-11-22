@@ -18,7 +18,7 @@ html, body {
     position: relative;
     width: 100%;
     height: 50vh; /* Altura ajustável para responsividade */
-    background-image: url('/src/img/profiles/influenciadores.png'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('../img/profiles/influenciadores.png'); /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
