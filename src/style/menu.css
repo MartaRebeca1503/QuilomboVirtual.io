@@ -50,3 +50,36 @@ nav {
     font-size: 14px;
   }
 }
+
+/* Barra de navegação fixa no topo da tela */
+#menu-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+#menu-container nav {
+  background-color: #2A0A6F;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#menu-container nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-container .nav-bar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-container .nav-bar a {
+  text-decoration: none;
+}
