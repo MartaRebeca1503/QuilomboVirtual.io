@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* Títulos: Anton, a mesma fonte de títulos do site da PDA */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 400 !important;
+}
+
 body{
   background-color: #5C0A6B;
   
@@ -48,7 +56,7 @@ html, body {
     font-weight: bold;
     color: #F9FAFB; /* Tom roxo claro para destacar o texto */
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
   }
 
   .quilombo-banner-content p {
@@ -269,14 +277,14 @@ padding: 4rem;
 
 .initial-text h2{
   color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   text-align: center;
   font-size: xx-large;
 }
 
 .initial-p{
   color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   text-align: justify;
   font-size: xx-large;
   padding: 5rem;
@@ -285,7 +293,7 @@ padding: 4rem;
 background-color:#C43BC4;
 padding: 1rem;
 color: white;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: "IBM Plex Sans", sans-serif;
 font-size: x-large;
 border-radius: 15px;
 border: none;
@@ -322,7 +330,7 @@ max-width: 80%;
 font-size: xx-large;
 text-align: justify;
 color: wheat;
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family:"IBM Plex Sans", sans-serif;
 font-weight:bolder;
 
 }
@@ -340,7 +348,7 @@ display: grid;
 .video-youtube{
   margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: "IBM Plex Sans", sans-serif;
             background: linear-gradient(135deg, #890098, #270C27, #4F174F);
             display: flex;
             justify-content: center;
@@ -461,7 +469,7 @@ display: grid;
 
 
 .podcasts {
-  font-family: 'Arial', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   background-color: #300635;
   color: white;
   margin: 0;
@@ -644,7 +652,7 @@ nav {
 .nav {
   margin: 0 20px;
   font-size: 18px;
-  font-family: Arial, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: white;
   text-align: center;
   text-decoration: none;
