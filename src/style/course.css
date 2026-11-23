@@ -58,14 +58,17 @@ html, body {
     display: flex;
     flex-direction: column;
     gap: 2dvh;
-    margin: auto;
-    padding: 1dvw;
+    width: min(90%, 900px);
+    margin: 4dvh auto;
+    padding: 3dvh 3dvw;
     background: #4e2772;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #title-page{
     display: flex;
+    justify-content: center;
     text-align: center;
     color: #f2f2f2;
     font-family: "Roboto", sans-serif;
@@ -89,6 +92,8 @@ html, body {
 
 .description-destaque{
     font-size: 0.9rem;
+    font-weight: bold; /* mantém o visual que o <h3> tinha */
+    max-width: 48ch;
     flex-wrap: wrap;
 }
 
@@ -182,14 +187,17 @@ html, body {
         display: flex;
         flex-direction: column;
         gap: 2dvh;
-        margin: auto;
-        padding: 1dvw;
+        width: min(90%, 900px);
+        margin: 4dvh auto;
+        padding: 3dvh 3dvw;
         background: #4e2772;
-        border-radius: 5px;
+        border-radius: 10px;
+        text-align: center;
     }
     
     #title-page{
         display: flex;
+        justify-content: center;
         text-align: center;
         color: #f2f2f2;
         font-family: "Roboto", sans-serif;
