@@ -54,10 +54,9 @@ html, body {
 /* End of Navigation Bar */
 
 .banner{
-    width: 98.7dvw;
-    height: 80dvh;
-    background-image: url('../img/courses/bannerPost.png');
-    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: block;
 }
     
 #description{
@@ -183,10 +182,9 @@ html, body {
     /* End of Navigation Bar */
     
     .banner{
-        width: 102dvw;
-        height: 53dvh;
-        background-image: url('../img/courses/bannerPost.png');
-        background-size: cover;
+        width: 100%;
+        height: auto;
+        display: block;
     }
         
     #description{

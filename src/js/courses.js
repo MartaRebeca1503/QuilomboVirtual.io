@@ -29,6 +29,12 @@ const courses = [
         logo: "../img/courses/fiapLogo.png",
         description: "A FIAP oferece os Nano Courses: cursos gratuitos e de curta duração nas áreas de tecnologia, inovação e negócios, com certificado de conclusão e sem pré-requisitos para começar.",
         link: "https://on.fiap.com.br/nano-courses/"
+    },
+    {
+        name: "Escola da Nuvem",
+        logo: "../img/courses/escolaDaNuvemLogo.png",
+        description: "A Escola da Nuvem oferece cursos gratuitos e ao vivo em computação em nuvem, tecnologia, inteligência artificial e no-code, com acompanhamento de carreira e apoio de empregabilidade para quem quer conseguir um emprego no mercado de tecnologia.",
+        link: "https://escoladanuvem.org/cursos/"
     }
 ];
 
