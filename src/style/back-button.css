@@ -2,7 +2,7 @@
     display: inline-block;
     margin: 15px;
     padding: 10px 20px;
-    background-color: #2A0A6F;
+    background-color: #300635;
     color: white;
     font-family: Arial, sans-serif;
     text-decoration: none;
@@ -11,5 +11,5 @@
 }
 
 .back-to-menu:hover {
-    background-color: #3D1C8C;
+    background-color: #5C0A6B;
 }

@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #7d0a7a;
+    background-color: #890098;
     background-image: url('../img/roxoacai.jpg');
   }
   
@@ -45,7 +45,7 @@ body {
   }
   
   header {
-    background-color: #ab5498;
+    background-color: #942C94;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -80,10 +80,10 @@ body {
     margin-bottom: 2rem;
   }
   h2 {
-    color: #333;
+    color: #374151;
   }
   footer {
-    background-color: #333;
+    background-color: #374151;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -111,14 +111,14 @@ body {
   
     width: 300px;
     height: 200px;
-    background-color: #f7e2f9;
+    background-color: #F3D8F3;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     perspective: 1000px;
-    box-shadow: 0 0 0 5px #efeaf180;
+    box-shadow: 0 0 0 5px #F9EBF980;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
@@ -130,13 +130,13 @@ body {
   
   .card svg {
     width: 48px;
-    fill: #f5e7e7;
+    fill: #F9EBF9;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
   .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(247, 242, 247, 0.2);
+    box-shadow: 0 8px 16px rgba(249, 235, 249, 0.2);
   }
   
   .card__content {
@@ -147,7 +147,7 @@ body {
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #edaae6;
+    background-color: #E8B0E8;
     transform: rotateX(-90deg);
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -160,7 +160,7 @@ body {
   .card__title {
     margin: 0;
     font-size: 24px;
-    color: #333;
+    color: #374151;
     font-weight: 700;
   }
   
@@ -171,7 +171,7 @@ body {
   .card__description {
     margin: 10px 0 0;
     font-size: 14px;
-    color: #777;
+    color: #4B5563;
     line-height: 1.4;
     
   }
@@ -184,20 +184,20 @@ body {
   /* Fonte para títulos (h1 e h2) */
   h1, h2 {
     font-family: 'kanit'; /* Fonte serifada para títulos */
-    color: #f7eefc;
+    color: #F9EBF9;
   }
   
   /* Fonte para parágrafos */
   p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Fonte sem serifa para parágrafos */
     font-size: 16px;
-    color: #faf2f2;
+    color: #F9FAFB;
   }
 
 
   
 nav {
-    background-color: #2A0A6F;
+    background-color: #300635;
     padding: 10px 0;
   }
   
@@ -220,8 +220,8 @@ nav {
   }
   
   .nav:hover {
-    background-color: #3D1C8C;
-    color: #3b01a8;
+    background-color: #5C0A6B;
+    color: #890098;
     border-radius: 5px;
     padding: 5px 10px;
     transition-duration: 2s;

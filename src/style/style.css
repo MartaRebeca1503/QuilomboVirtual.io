@@ -7,8 +7,8 @@
 }
 
 :root {
-  --cor-fundo: #6f4a96;
-  --cor-fundo-claro: #a37fd0;
+  --cor-fundo: #762376;
+  --cor-fundo-claro: #DC89DC;
   --mouse-x: 50%;
   --mouse-y: 50%;
 }
@@ -61,10 +61,10 @@ html, body {
 
 .nav-bar-items li:hover {
   padding: 5px 25px;
-  color: rgb(92, 7, 126);
+  color: rgb(92, 10, 107);
   font-weight: 900;
   border-radius: 10px;
-  background-color: rgba(99, 60, 136, 0.432);
+  background-color: rgba(148, 44, 148, 0.432);
 }
 
 .more {
@@ -78,7 +78,7 @@ html, body {
 }
 
 .banner {
-  background-color: yellow;
+  background-color: #EDDC12;
 }
 
 #banner-img {
@@ -100,7 +100,7 @@ html, body {
   align-items: center;
   width: 250px;
   height: 250px;
-  background-color: #4e2772;
+  background-color: #5C0A6B;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -117,7 +117,7 @@ html, body {
   width: 250px;
   height: 350px;
   margin: 10px;
-  background: linear-gradient(135deg, #4e2772, #9b59b6);
+  background: linear-gradient(135deg, #5C0A6B, #942C94);
   border-radius: 20px;
   text-decoration: none;
   overflow: hidden;
@@ -168,7 +168,7 @@ html, body {
 }
 
 .card-btn:hover {
-  color: #4e2772;
+  color: #5C0A6B;
   background: #ffffff;
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
 }
@@ -193,7 +193,7 @@ html, body {
   width: 80%;
   margin: 20px auto;
   padding: 20px;
-  background: linear-gradient(135deg, #4e2772, #9b59b6);
+  background: linear-gradient(135deg, #5C0A6B, #942C94);
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -254,7 +254,7 @@ html, body {
 
 
 nav {
-  background-color: #2A0A6F;
+  background-color: #300635;
   padding: 10px 0;
 }
 
@@ -277,8 +277,8 @@ nav {
 }
 
 .nav:hover {
-  background-color: #3D1C8C;
-  color: #3b01a8;
+  background-color: #5C0A6B;
+  color: #890098;
   border-radius: 5px;
   padding: 5px 10px;
   transition-duration: 2s;

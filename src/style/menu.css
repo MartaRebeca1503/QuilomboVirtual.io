@@ -1,6 +1,6 @@
 /* Barra de menu compartilhada (mesmo visual da página principal) */
 nav {
-  background-color: #2A0A6F;
+  background-color: #300635;
   padding: 10px 0;
 }
 
@@ -23,8 +23,8 @@ nav {
 }
 
 .nav:hover {
-  background-color: #3D1C8C;
-  color: #3b01a8;
+  background-color: #5C0A6B;
+  color: #890098;
   border-radius: 5px;
   padding: 5px 10px;
   transition-duration: 2s;
@@ -60,7 +60,7 @@ nav {
 }
 
 #menu-container nav {
-  background-color: #2A0A6F;
+  background-color: #300635;
   padding: 10px 0;
   margin: 0;
 }

@@ -1,5 +1,5 @@
 body{
-  background-color: #4e2772;
+  background-color: #5C0A6B;
   
 }
 
@@ -46,7 +46,7 @@ html, body {
   .quilombo-banner-content h1 {
     font-size: 2.7rem; /* Tamanho ajustável */
     font-weight: bold;
-    color: #fdfdfd; /* Tom roxo claro para destacar o texto */
+    color: #F9FAFB; /* Tom roxo claro para destacar o texto */
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
@@ -79,7 +79,7 @@ html, body {
   position: relative;
   width: 300px;
   height: 200px;
-  background-color: #f2f2f2;
+  background-color: #F9FAFB;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@ html, body {
 
 .card svg {
   width: 48px;
-  fill: #333;
+  fill: #374151;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -156,7 +156,7 @@ padding: 4rem;
 
 .kx-modal-open-btn {
   padding: 12px 24px;
-  background: #7d5bed;
+  background: #C43BC4;
   color: #fff;
   font-size: 1rem;
   border: none;
@@ -167,7 +167,7 @@ padding: 4rem;
 
 .kx-modal-open-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(125, 91, 237, 0.5);
+  box-shadow: 0 4px 15px rgba(196, 59, 196, 0.5);
 }
 
 /* Modal Overlay */
@@ -177,7 +177,7 @@ padding: 4rem;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(45, 42, 74, 0.9);
+  background: rgba(48, 6, 53, 0.9);
   display: none;
   justify-content: center;
   align-items: center;
@@ -186,7 +186,7 @@ padding: 4rem;
 
 /* Modal Content */
 .kx-modal-content {
-  background: linear-gradient(145deg, #5e4b9e, #4a3b7f);
+  background: linear-gradient(145deg, #762376, #4F174F);
   border-radius: 16px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
   text-align: center;
@@ -248,7 +248,7 @@ padding: 4rem;
 .kx-modal-text p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #e0e0e0;
+  color: #E5E7EB;
 }
 
 /*modal*/
@@ -282,7 +282,7 @@ padding: 4rem;
   padding: 5rem;
 }
 .initial-text button{
-background-color:#7d5bed;
+background-color:#C43BC4;
 padding: 1rem;
 color: white;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -341,7 +341,7 @@ display: grid;
   margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #6a11cb, #260f33, #3b2268);
+            background: linear-gradient(135deg, #890098, #270C27, #4F174F);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -462,7 +462,7 @@ display: grid;
 
 .podcasts {
   font-family: 'Arial', sans-serif;
-  background-color: #2A0A6F;
+  background-color: #300635;
   color: white;
   margin: 0;
   padding: 0;
@@ -489,7 +489,7 @@ display: grid;
 
 /* Cards */
 .podcast-card {
-  background: #3D1C8C;
+  background: #5C0A6B;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -533,7 +533,7 @@ display: grid;
 }
 
 .modal-content {
-  background-color: #3D1C8C;
+  background-color: #5C0A6B;
   padding: 30px;
   border-radius: 10px;
   width: 80%;
@@ -555,7 +555,7 @@ display: grid;
 }
 
 .modal-close {
-  background: #FF4081;
+  background: #D062D0;
   padding: 10px 20px;
   color: white;
   font-size: 18px;
@@ -566,7 +566,7 @@ display: grid;
 }
 
 .modal-close:hover {
-  background: #E40062;
+  background: #C43BC4;
 }
 
 /* Animações */
@@ -630,7 +630,7 @@ display: grid;
 }
 
 nav {
-  background-color: #2A0A6F;
+  background-color: #300635;
   padding: 10px 0;
 }
 
@@ -653,8 +653,8 @@ nav {
 }
 
 .nav:hover {
-  background-color: #3D1C8C;
-  color: #3b01a8;
+  background-color: #5C0A6B;
+  color: #890098;
   border-radius: 5px;
   padding: 5px 10px;
   transition-duration: 2s;
@@ -721,7 +721,7 @@ nav {
 /* Ações de estilo */
 a {
   text-decoration: none;
-  color: #FFD700;
+  color: #EDDC12;
 }
 
 a:hover {
