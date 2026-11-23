@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* Títulos: Anton, a mesma fonte de títulos do site da PDA */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 400 !important;
+}
 
 * {
   margin: 0;
@@ -18,7 +24,7 @@ html, body {
   width: 100%;
   background-color: var(--cor-fundo);
   /* tom mais claro onde o mouse passa, resto mais escuro */
-  background-image: radial-gradient(circle 350px at var(--mouse-x) var(--mouse-y), var(--cor-fundo-claro), transparent);
+  background-image: radial-gradient(circle 200px at var(--mouse-x) var(--mouse-y), var(--cor-fundo-claro), transparent);
   background-attachment: fixed;
 }
 
@@ -29,16 +35,30 @@ html, body {
   background-color: transparent;
   border-radius: 10px;
   color: aliceblue;
-  font-family: "Archivo Black", serif;
+  font-family: "Anton", sans-serif;
   text-align: center;
   font-size: x-large;
-  max-height: 180px;
-  overflow: hidden;
+  padding: 40px 20px 60px; /* espaço acima e abaixo para o logo aparecer inteiro */
 }
 
 #header .woman-img {
   max-height: 180px;
   width: auto;
+}
+
+#header h1 {
+  color: #EDDC12; /* amarelo da PDA */
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  letter-spacing: 0.06em;
+  line-height: 1.3;
+  margin-bottom: 14px;
+}
+
+#header h3 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 .nav-bar {
@@ -49,7 +69,7 @@ html, body {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  font-family: "Roboto", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: larger;
   list-style: none;
   
@@ -72,9 +92,21 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Archivo Black", serif;
+  font-family: "Anton", sans-serif;
   font-size: larger;
-  margin: 20px 0;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.more h2 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin-bottom: 10px;
+}
+
+.more p {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
 }
 
 .banner {
@@ -128,6 +160,12 @@ html, body {
   color: #fff;
 }
 
+/* Cards alternados: ímpares roxo, pares amarelo */
+.card-btn:nth-child(even) {
+  background: linear-gradient(135deg, #EDDC12, #F5EA70); /* amarelos da PDA */
+  color: #300635;
+}
+
 .card-btn img {
   width: 100%;
   height: 60%;
@@ -138,7 +176,7 @@ html, body {
 .card-btn .card-content {
   padding: 20px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -185,7 +223,7 @@ html, body {
   align-items: center;
   flex-wrap: wrap; /* Permite quebra de linha se necessário */
   gap: 20px; /* Espaçamento entre os cards */
-  margin: 20px auto;
+  margin: 75.6px auto 20px;
 }
 
 /*caixa de texto*/
@@ -193,10 +231,10 @@ html, body {
   width: 80%;
   margin: 20px auto;
   padding: 20px;
-  background: linear-gradient(135deg, #5C0A6B, #942C94);
+  background: #300635; /* roxo escuro da PDA, o mesmo do menu */
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: clamp(1.3rem, 2vw, 1.5rem);
   line-height: 1.6;
   text-align: justify;
   border-radius: 15px;
@@ -216,6 +254,13 @@ html, body {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   pointer-events: none;
+}
+.text-box p {
+  text-indent: 2.5em;
+}
+
+.text-box p + p {
+  margin-top: 1em;
 }
 /*fim da caixa de texto */
 
@@ -268,7 +313,7 @@ nav {
 .nav {
   margin: 0 20px;
   font-size: 18px;
-  font-family: Arial, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: white;
   text-align: center;
   text-decoration: none;
