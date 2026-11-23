@@ -10,6 +10,7 @@ function openModal(number) {
     const modal = document.getElementById('kxModal');
     modal.classList.add('kx-modal-active');
     modal.style.display = 'flex';
+    link.style.display = '';
 
     if (number === 1){
         
@@ -49,6 +50,48 @@ function openModal(number) {
         text1.innerText = "Tukumã Pataxó é um jovem ativista e estudante de Direito, que se destaca por sua atuação nas redes sociais, trazendo visibilidade às lutas dos povos indígenas. Ele aborda temas como demarcação de terras, preservação da cultura ancestral e proteção ambiental, sempre de maneira educativa e acessível. Sua comunicação criativa e engajada inspira o público a valorizar e apoiar as causas indígenas.";
         photo.innerHTML = ' <img src="../img/profiles/modalprofile/tukuma.png" alt="Imagem do Modal" class="kx-modal-image">'
         link.href = "https://www.instagram.com/tukuma_pataxo/";
+    }
+    else if (number === 7){
+        name.innerText = "Kae Guajajara - Ativista indígena"
+        text1.innerText = "Kae Guajajara, do povo Guajajara, é ativista e comunicadora indígena. Usa as redes sociais e a comunicação para levar ao grande público as lutas dos povos originários, os direitos territoriais e a valorização das culturas indígenas.";
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/kae-guajajara.jpg" alt="Foto de Kae Guajajara" class="kx-modal-image">'
+        link.style.display = "none";
+    }
+    else if (number === 8){
+        name.innerText = "Ailton Krenak - Líder indígena e escritor"
+        text1.innerText = "Ailton Krenak, do povo Krenak, é líder indígena, filósofo, escritor e ambientalista. Foi uma das vozes mais importantes na defesa dos direitos indígenas durante a Constituinte de 1988 e é autor de obras como Ideias para adiar o fim do mundo, A vida não é útil e Futuro ancestral.";
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/ailton-krenak.jpg" alt="Foto de Ailton Krenak" class="kx-modal-image">'
+        link.style.display = "none";
+    }
+    else if (number === 9){
+        name.innerText = "Sônia Guimarães - Física e professora"
+        text1.innerText = "Sônia Guimarães é física e professora do Instituto Tecnológico de Aeronáutica (ITA). Foi a primeira mulher negra brasileira a se doutorar em Física e dedica sua carreira à pesquisa em materiais semicondutores e ao incentivo de jovens negros e mulheres na ciência.";
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/sonia-guimaraes.jpg" alt="Foto de Sônia Guimarães" class="kx-modal-image">'
+        link.style.display = "none";
+    }
+    else if (number === 10){
+        name.innerText = "Marian Croak - Engenheira e inventora"
+        text1.innerText = "Marian Croak é engenheira e inventora norte-americana, pioneira da tecnologia de voz sobre IP (VoIP), que permite chamadas pela internet. Detentora de mais de 200 patentes, é vice-presidente de engenharia no Google.";
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/marian-croak.jpg" alt="Foto de Marian Croak" class="kx-modal-image">'
+        link.style.display = "none";
+    }
+    else if (number === 11){
+        name.innerText = "Mark Dean - Engenheiro e inventor"
+        text1.innerText = "Mark Dean é engenheiro e inventor norte-americano. Pesquisador da IBM, foi um dos criadores do computador pessoal da empresa e coinventor do barramento ISA, além de liderar o desenvolvimento do primeiro chip de 1 gigahertz. É detentor de diversas patentes.";
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/mark-dean.jpg" alt="Foto de Mark Dean" class="kx-modal-image">'
+        link.style.display = "none";
+    }
+    else if (number === 12){
+        name.innerText = "Kizzy Terra"
+        text1.innerText = "Saiba mais sobre essa grande voz.";
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/kizzy-terra.jpg" alt="Foto de Kizzy Terra" class="kx-modal-image">'
+        link.style.display = "none";
+    }
+    else if (number === 13){
+        name.innerText = "Nego Bispo - Escritor e pensador quilombola"
+        text1.innerText = "Antônio Bispo dos Santos, o Nego Bispo (1959-2023), foi lavrador, escritor e pensador quilombola do Piauí. Em obras como Colonização, Quilombos: modos e significações e A terra dá, a terra quer, defende a contracolonização e os saberes dos povos quilombolas e indígenas.";
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/nego-bispo.jpg" alt="Foto de Nego Bispo" class="kx-modal-image">'
+        link.style.display = "none";
     }
     }
     
