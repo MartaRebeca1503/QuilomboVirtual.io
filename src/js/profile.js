@@ -90,7 +90,7 @@ function openModal(number) {
     else if (number === 13){
         name.innerText = "Nego Bispo - Escritor e pensador quilombola"
         text1.innerText = "Antônio Bispo dos Santos, o Nego Bispo (1959-2023), foi lavrador, escritor e pensador quilombola do Piauí. Em obras como Colonização, Quilombos: modos e significações e A terra dá, a terra quer, defende a contracolonização e os saberes dos povos quilombolas e indígenas.";
-        photo.innerHTML = ' <img src="../img/profiles/modalprofile/nego-bispo.jpg" alt="Foto de Nego Bispo" class="kx-modal-image">'
+        photo.innerHTML = ' <img src="../img/profiles/modalprofile/nego-bispo.webp" alt="Foto de Nego Bispo" class="kx-modal-image">'
         link.style.display = "none";
     }
     }
