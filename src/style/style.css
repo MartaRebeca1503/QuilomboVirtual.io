@@ -223,7 +223,7 @@ html, body {
   align-items: center;
   flex-wrap: wrap; /* Permite quebra de linha se necessário */
   gap: 20px; /* Espaçamento entre os cards */
-  margin: 75.6px auto 20px;
+  margin: 75.6px auto 50px;
 }
 
 /*caixa de texto*/
