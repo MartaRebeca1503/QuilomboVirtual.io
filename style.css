@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* Títulos: Anton, a mesma fonte de títulos do site da PDA */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 400 !important;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -6,7 +14,7 @@ body {
     margin: 0;
     background: linear-gradient(45deg, #6a1b9a, #8e24aa);
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
 }
 h1 {

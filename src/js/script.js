@@ -5,8 +5,7 @@ const menuHTML = `
     <ul>
     <ol class="nav-bar">
             <a href="#"><li class="nav">Home</li></a>
-           <a href="contato/"> <li class="nav">Contato</li></a>
-          <a href="https://www.vakinha.com.br/buscar-vaquinha?page=1&term=Vaquinhas%20para%20pessoas%20negras">  <li class="nav">Apoio</li></a>
+          <a href="https://www.vakinha.com.br/buscar-vaquinha?page=1&term=Vaquinhas%20para%20pessoas%20negras" target="_blank" rel="noopener noreferrer">  <li class="nav">Apoio</li></a>
             <a href="pages/about.html"><li class="nav">Sobre</li></a>
         </ol>
     </ul>
@@ -39,4 +38,10 @@ const observer = new IntersectionObserver(handleIntersection, {
 const elements = document.querySelectorAll('.animate-on-scroll');
 elements.forEach(element => {
     observer.observe(element);
+});
+
+// Efeito de luz: o fundo fica mais claro onde o mouse (ou toque) estiver
+document.addEventListener("pointermove", function(event) {
+    document.documentElement.style.setProperty("--mouse-x", event.clientX + "px");
+    document.documentElement.style.setProperty("--mouse-y", event.clientY + "px");
 });

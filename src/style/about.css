@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* Títulos: Anton, a mesma fonte de títulos do site da PDA */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 400 !important;
+}
+
 /* Reset de estilo */
 * {
     margin: 0;
@@ -6,15 +14,15 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #F3F4F6;
+    color: #374151;
     overflow-x: hidden;
 }
 
 /* Header */
 header {
-    background-color: #4b0082;
+    background-color: #5C0A6B;
     color: white;
     text-align: center;
     padding: 70px;
@@ -114,12 +122,12 @@ header {
 
 .card-content p {
     font-size: 1rem;
-    color: #777;
+    color: #4B5563;
 }
 
 .modal-btn {
     padding: 10px 20px;
-    background-color: #4b0082;
+    background-color: #5C0A6B;
     color: white;
     border: none;
     border-radius: 5px;
@@ -129,7 +137,7 @@ header {
 }
 
 .modal-btn:hover {
-    background-color: #6a0dad;
+    background-color: #890098;
 }
 
 /* Modal */
@@ -168,7 +176,7 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #333;
+    border: 5px solid #374151;
     position: relative;
     margin: 0 auto;
     animation: rotateVinyl 10s linear infinite;
@@ -199,7 +207,7 @@ header {
 }
 
 .close-btn {
-    color: #aaa;
+    color: #9CA3AF;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -216,13 +224,13 @@ header {
 
 .star {
     font-size: 24px;
-    color: gray;
+    color: #9CA3AF;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .star.highlighted {
-    color: gold;
+    color: #EDDC12;
 }
 
 .rating {
@@ -236,5 +244,35 @@ header {
     text-align: center;
     margin: 10px 0;
     font-size: 18px;
+    font-weight: bold;
+}
+
+/* Links de contato dos desenvolvedores */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.contact-links a {
+    color: #5C0A6B;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Avatar placeholder (iniciais) enquanto não há foto */
+.avatar-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5C0A6B;
+    color: white;
+    font-size: 2rem;
     font-weight: bold;
 }

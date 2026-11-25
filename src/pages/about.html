@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre o Projeto</title>
     <link rel="stylesheet" href="../style/about.css">
+    <link rel="stylesheet" href="../style/back-button.css">
 </head>
 <body>
 
@@ -19,44 +20,98 @@
         <div class="developer-card" id="developer1">
             <div class="card-content">
                 <div class="vinyl">
-                    <img class="developer-photo" src="/src/img/about/about_italo.png" alt="Desenvolvedor 1">
+                    <img class="developer-photo" src="../img/about/about_italo.png" alt="Hytalo">
                 </div>
                 <h2>Hytalo</h2>
                 <p>Dev Full Stack</p>
                 <button class="modal-btn" onclick="openModal(1)">Ver mais</button>
+                <div class="contact-links">
+                    <a href="mailto:TODO">E-mail</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
 
         <div class="developer-card" id="developer2">
             <div class="card-content">
                 <div class="vinyl">
-                    <img class="developer-photo" src="/src/img/about/about_rebeca.png" alt="Desenvolvedor 2">
+                    <img class="developer-photo" src="../img/about/about_rebeca.png" alt="Rebeca">
                 </div>
                 <h2>Rebeca</h2>
                 <p>Dev full stack</p>
                 <button class="modal-btn" onclick="openModal(2)">Ver mais</button>
+                <div class="contact-links">
+                    <a href="mailto:martarebecadecarvalhonerys@protonmail.com">E-mail</a>
+                    <a href="https://www.linkedin.com/in/devrebeca" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/MartaRebeca1503" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
 
         <div class="developer-card" id="developer3">
             <div class="card-content">
                 <div class="vinyl">
-                    <img class="developer-photo" src="/src/img/about/about_kelvis1.png" alt="Desenvolvedor 3">
+                    <img class="developer-photo" src="../img/about/about_kelvis1.png" alt="Kelvis Duank">
                 </div>
                 <h2>Kelvis Duank</h2>
                 <p>Dev.  Full-Stack</p>
                 <button class="modal-btn" onclick="openModal(3)">Ver mais</button>
+                <div class="contact-links">
+                    <a href="mailto:TODO">E-mail</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
 
         <div class="developer-card" id="developer4">
             <div class="card-content">
                 <div class="vinyl">
-                    <img class="developer-photo" src="/src/img/about/about_luiza.png" alt="Desenvolvedor 4">
+                    <img class="developer-photo" src="../img/about/about_luiza.png" alt="Luiza Pureza">
                 </div>
                 <h2>Luiza Pureza</h2>
                 <p>Dev Full stack .</p>
                 <button class="modal-btn" onclick="openModal(4)">Ver mais</button>
+                <div class="contact-links">
+                    <a href="mailto:TODO">E-mail</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="developer-card" id="developer5">
+            <div class="card-content">
+                <div class="vinyl">
+                    <!-- TODO: trocar o avatar por <img class="developer-photo" src="..." alt="Maria Alice"> -->
+                    <div class="developer-photo avatar-placeholder">MA</div>
+                </div>
+                <h2>Maria Alice</h2>
+                <p>Dev Full Stack</p>
+                <button class="modal-btn" onclick="openModal(5)">Ver mais</button>
+                <div class="contact-links">
+                    <a href="mailto:mariaaliceifba@gmail.com">E-mail</a>
+                    <a href="https://www.linkedin.com/in/mariaalice-dev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/MariaAlic3" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="developer-card" id="developer6">
+            <div class="card-content">
+                <div class="vinyl">
+                    <!-- TODO: trocar o avatar por <img class="developer-photo" src="..." alt="Roger Brandão"> -->
+                    <div class="developer-photo avatar-placeholder">RB</div>
+                </div>
+                <h2>Roger Brandão</h2>
+                <p>Dev Full Stack</p>
+                <button class="modal-btn" onclick="openModal(6)">Ver mais</button>
+                <div class="contact-links">
+                    <a href="mailto:TODO">E-mail</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="TODO" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
             </div>
         </div>
     </section>
@@ -65,8 +120,8 @@
     <div id="modal1" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal(1)">&times;</span>
-            <h2>Desenvolvedor 1</h2>
-            <img src="/src/img/about/about_italo.png" alt="Desenvolvedor 1">
+            <h2>Hytalo</h2>
+            <img src="../img/about/about_italo.png" alt="Hytalo">
             <p>Olá sou Hytalo Pereira, estudo programação a 4 anos. Comecei a me aventura na Programação no meu Ensino Médio, sou formado em técnico de informática. Gosto de aprender coisas novas e praticar esportes e futuramente pretendo me aventura no mundo da Criações de Jogos./p>
         </div>
     </div>
@@ -83,9 +138,9 @@
     <div id="modal2" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal(2)">&times;</span>
-            <h2>Desenvolvedor 2</h2>
-            <img src="/src/img/about/about_rebeca.png" alt="Desenvolvedor 2">
-            <p>Me chamo Rebeca tenho 19 anos, sou a idealizadora do projeto Quilombo Virtual em conjunto com o meu grupo 7 da escola Programadores do Amanhã! O projeto é um desejo meu  desde o início da minha jornada na PDA, e tenho orgulho de mim e dos  meus companheiros por terem conseguido tirar isso do papel</p>
+            <h2>Rebeca</h2>
+            <img src="../img/about/about_rebeca.png" alt="Rebeca">
+            <p>Me chamo Rebeca, sou a idealizadora do projeto Quilombo Virtual em conjunto com o meu grupo 7 da escola Programadores do Amanhã! O projeto é um desejo meu  desde o início da minha jornada na PDA, e tenho orgulho de mim e dos  meus companheiros por terem conseguido tirar isso do papel</p>
         </div>
     </div>
 
@@ -93,7 +148,7 @@
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal(3)">&times;</span>
             <h2>Kelvis Duank</h2>
-            <img src="/src/img/about/about_kelvis1.png" alt="Desenvolvedor 3">
+            <img src="../img/about/about_kelvis1.png" alt="Kelvis Duank">
             <p>Indigena do povo Xakriaba, apaixonado pela tecnologias.</p>
         </div>
     </div>
@@ -101,12 +156,29 @@
     <div id="modal4" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal(4)">&times;</span>
-            <h2>Desenvolvedor 4</h2>
-            <img src="/src/img/about/about_luiza.png" alt="Desenvolvedor 4">
+            <h2>Luiza Pureza</h2>
+            <img src="../img/about/about_luiza.png" alt="Luiza Pureza">
             <p>Dev Full stack.</p>
         </div>
     </div>
 
-    <script src="/src/js/about.js"></script>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal(5)">&times;</span>
+            <h2>Maria Alice</h2>
+            <p>TODO: adicionar descrição.</p>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal(6)">&times;</span>
+            <h2>Roger Brandão</h2>
+            <p>TODO: adicionar descrição.</p>
+        </div>
+    </div>
+
+    <script src="../js/about.js"></script>
+    <script src="../js/back-button.js"></script>
 </body>
 </html>
