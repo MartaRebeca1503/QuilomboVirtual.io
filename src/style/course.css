@@ -93,6 +93,7 @@ html, body {
     flex-wrap: wrap;
     gap: 2dvw;
     margin: 5dvh;
+    padding-bottom: 8dvh; /* espaço entre a última linha de cards e o fim da página */
 }
 
 .description-destaque{
@@ -221,6 +222,7 @@ html, body {
         flex-wrap: wrap;
         gap: 2dvw;
         margin: 5dvh;
+        padding-bottom: 8dvh;
     }
     
     .description-destaque{
